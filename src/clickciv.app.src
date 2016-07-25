@@ -1,0 +1,12 @@
+{application, clickciv,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { clickciv_app, []}},
+  {env, []}
+ ]}.
